@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>MobilityLabs: Video tutoriales</title>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine or request Chrome Frame -->
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+  </script>
+  <![endif]-->
+
+  <!--[if IE]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.0-beta.30/css/calcite-web.min.css">
+  <script src="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.0-beta.30/js/calcite-web.min.js"></script>
+  <script>
+    window.onload = function () {calcite.init();};
+  </script>
+</head>
+
+<body>
+
+  <div class="grid-container">
+
+    <!--<div class="column-24">
+        <h1 class="column-20 tablet-column-8">Hackathon - Video tutoriales</h1>
+        <div class="column-4 tablet-column-4">
+          <a class="js-modal-toggle btn leader-1 right tablet-leader-0" href="#" data-modal="foo">Dudas</a>
+        </div>
+    </div>-->
+
+    <div class="grid-container">
+      <div class="column-23">
+        <div class="column-11 tablet-column-11">
+            <div id="video-container"></div>
+        </div>
+
+        <div class="column-12 tablet-column-11">
+          <span>
+            <table class="table-striped table-blue video-index">
+              <thead>
+                <tr>
+                  <th>Minuto</th>
+                  <th>Descripción</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+          </span>
+        </div>
+      </div>
+      <!--
+      <div class="column-23">
+        <div class="column-11">
+          <iframe class="slides" src="https://esriespana923.sharepoint.com/_layouts/15/WopiFrame.aspx?sourcedoc={56389b3a-61f2-46fe-b78a-94d174331774}&action=embedview&wdAr=1.3333333333333333"></iframe>
+        </div>
+        <div class="column-12">
+          <p>
+            En esta charla que dió <a href="https://es.linkedin.com/in/andres-recio-martin-11819b40">Andrés Recio</a>, responsable de aplicaciones de negocio en la EMT presenta la plataforma MobilityLabs explicándo la infraestructura puesta a disposición al público e introducciendo las colecciones ya disponibles.
+          </p>
+          <p>Materiales disponibles:</p>
+          <ul>
+            <li>
+              <a href="https://drive.google.com/folderview?id=0Bwbev5oZ3j7sQVg5NjhfMm9meGc&usp=sharing" target="_blank">Documentos utilizados durante el hackathon</a>
+            </li>
+            <li>
+              <a href="assets/files/Intro-MobilityLabs-v1.1.pdf" target="_blank">Abrir las transparencias de esta charla en una pestaña nueva</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+-->
+  </div>
+
+<!--
+  <div class="js-modal modal-overlay modifier-class" data-modal="foo">
+  <div class="modal-content column-12" role="dialog" aria-labelledby="modal" role="dialog">
+    <a class="js-modal-toggle icon-ui-close icon-flush font-size-1 right" href="#" aria-label="close-modal" ></a>
+    <h3 class='trailer-half'>Dudas</h3>
+      <p>
+        Cualquier duda que tengas puedes plantearla en el foro de <a href="https://mobilitylabs.emtmadrid.es/portal/index.php/forums/forum/pregunta-discute-intercambia/">mobilitylabs</a>.
+      </p>
+
+      <p>
+        Si tienes cualquier duda sobre el funcionamiento de los scripts del <a href="https://github.com/esri-es/mobilitylab-emtmadrid">repositorio mobilitylab-emtmadrid de Esri</a>
+        no dudes en <a href="https://github.com/esri-es/mobilitylab-emtmadrid/issues">abrir un issue</a>.
+      </p>
+
+    <div class="text-right">
+        <button class="btn js-modal-toggle">Entendido</button>
+    </div>
+</div>-->
+</div>
+
+<style type="text/css">
+.html5-video-player .video-stream{
+  width:100% important!;
+}
+.slides{
+  width: 100%;
+  height: 390px;
+  border: 1px solid #ccc;
+}
+.tab-section .grid-container .column-23{
+  margin: 0 auto;
+}
+#sponsors,
+#logo{
+  max-height: 80px;
+}
+tbody{
+    max-height: 285px;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    display: block;
+}
+tr{display: table;}
+thead tr, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;/* even columns width , fix width of table too*/
+}
+tbody tr{
+  cursor: pointer;
+
+}
+tbody tr:hover{
+  text-decoration: underline;
+}
+
+tbody tr > td:first-child,
+thead tr > th:first-child{
+  width: 20%;
+  text-align: center;
+}
+
+</style>
+  <script src="assets/js/youtube.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="assets/js/utils.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
