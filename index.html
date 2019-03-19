@@ -26,6 +26,70 @@
   body{
       margin-top: 1rem;
   }
+  td, th {
+      padding: .2rem 0.8rem !important;
+      font-size: .8rem;
+  }
+  .table-red {
+      border: 1px solid #ec1c41
+  }
+
+  .table-red > thead {
+      background-color: #ec1c41;
+      border: none;
+      border-bottom: 1px solid #ec1c41;
+      color: white
+  }
+
+  .table-red > thead tr:nth-child(even) {
+      background-color: #f17920;
+      color: #4c4c4c
+  }
+
+
+  .table-red > tfoot {
+      border-top: 1px solid #ec1c41
+  }
+
+  .table-red th,.table-red td {
+      border-left: 1px solid #ec1c41;
+      border-right: 1px solid #ec1c41
+  }
+
+  .table-red tr {
+      border-bottom: 1px solid #ec1c41
+  }
+  /*********/
+  .table-orange {
+      border: 1px solid #f17920
+  }
+
+  .table-orange > thead {
+      background-color: #f17920;
+      border: none;
+      border-bottom: 1px solid #f17920;
+      color: white
+  }
+
+  .table-orange > thead tr:nth-child(even) {
+      background-color: #f17920;
+      color: #4c4c4c
+  }
+
+
+  .table-orange > tfoot {
+      border-top: 1px solid #f17920
+  }
+
+  .table-orange th,.table-orange td {
+      border-left: 1px solid #f17920;
+      border-right: 1px solid #f17920
+  }
+
+  .table-orange tr {
+      border-bottom: 1px solid #f17920
+  }
+
   </style>
   <script>
     window.onload = function () {calcite.init();};
@@ -45,13 +109,13 @@
 
     <div class="grid-container">
 
-        <div class="column-12">
+        <div class="column-24">
             <div id="video-container"></div>
         </div>
 
-        <div class="column-12">
+        <div class="column-24">
           <span>
-            <table class="table-striped table-blue video-index">
+            <table class="table-striped table-orange video-index">
               <thead>
                 <tr>
                   <th>Minuto</th>
