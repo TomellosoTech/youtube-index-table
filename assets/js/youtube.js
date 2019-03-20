@@ -43,7 +43,7 @@ function loadYoutubeVideoIndex(){
     var data = {
         "id": videoId,
         "part": "snippet",
-        "key": "AIzaSyBPjVTZM4H0kj1MlNIkqDlUnpJcJhNZQFo"
+        "key": "AIzaSyCI6QmEIo03v7kBDB2t3_Gu5kO9dzYN5_A"
     };
 
     $.ajax({
